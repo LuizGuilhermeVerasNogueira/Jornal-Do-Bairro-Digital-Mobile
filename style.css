@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 180px; 
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+.titulo-1{
+    text-align: center;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;
+
+    
+}
+
+
+h2{
+    font-size: 24px; 
+    margin-left: 10px; 
+    color: red;
+    margin-bottom: 20px;
+}
+
+.espaco-1{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+p{
+    margin-left: 10px;
+    color: black;
+}
+
+.materia-1{
+    text-decoration: none;
+}
+
+.inicio{
+    margin-top: 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 90%; 
+    padding: 20px; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    display: grid; 
+    grid-template-columns: auto; 
+    margin-bottom: 20px;
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9, .alex1, .futshow1, .futshow2, .futshow3, .luana1 {
+    width: 100%; 
+    height: auto; 
+    margin-left: 0; 
+    margin-top: 10px; 
+    position: relative; 
+    border-radius: 15px;
+}
+
+
+.texto-imagem, .texto-imagem2, .texto-imagem3, .texto-imagem4, .texto-imagem-3, .texto2-imagem-3, .texto3-imagem-3, 
+.texto-imagem-4, .texto2-imagem-4, .texto3-imagem-4, .texto-imagem-5, .texto2-imagem-5, .texto3-imagem-5, 
+.texto-imagem-6, .texto2-imagem-6, .texto-imagem-7, .texto-imagem-8, .texto-oficina, .texto-oficina2, 
+.texto2-oficina, .texto3-oficina2, .titulo-oficina, .titulo-oficina2, .titulo-futshow, .titulo-futshow2, 
+.texto-futshow, .texto-futshow2, .texto2-futshow, .texto2-futshow2 {
+    position: relative; 
+    left: 0; 
+    top: 10px; 
+    width: auto; 
+    text-align: center; 
+}
+
+.inicio, .negocio, .negocio2, .negocio3, .negocio4, .miniatura, .miniatura2, .miniatura3 {
+    width: 90%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+}
+
+.maps{
+    text-decoration: none;
+}
+
+.fim{
+    color: white    ;
+    margin-left: 20px;
+}
+
+footer{
+    position: relative; 
+    margin-top: 20px; 
+    text-align: center;
+}
+
+@media (max-width: 768px) { 
+    /* Adjust styles for smaller screens */
+}
+
+
+.links{
+    text-decoration: none;
+    color: black;
+}
